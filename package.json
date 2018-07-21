@@ -1,5 +1,5 @@
 {
-  "name": "loc8r",
+  "name": "emo",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,8 @@
     "node": "~8.11.3",
     "npm": "~5.6.0"
   }
-  "dependencies": {
+  "dependencies" : 
+  {
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "express": "~4.16.0",
