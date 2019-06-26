@@ -1,9 +1,12 @@
 var express = require('express');
 var router = express.Router();
+/*
 var ctrlLite = require('../controllers/lite');
-var ctrlFull = require('../controllers/full');   
+var ctrlFull = require('../controllers/full'); 
+Надо ли это?
+*/
 
-/* GET home page. */
+/* GET home page. Тут ли оно?*/
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Hello, Zoya!' });
 });
