@@ -13,11 +13,11 @@ router.get('/full', ctrlFull)
 
 /* Страницы лайт-версии. */
 router.get('/friends', ctrlLite)
-router.get('/friends/libary', ctrlLite)
-router.get('/friends/libary/questions', ctrlLite)
-router.get('/friends/libary/ansers', ctrlLite)
-router.get('/friends/libary/stickers', ctrlLite)
-router.get('/friends/libary/downloads', ctrlLite)
+router.get('/friends/library', ctrlLite)
+router.get('/friends/library/questions', ctrlLite)
+router.get('/friends/library/ansers', ctrlLite)
+router.get('/friends/library/stickers', ctrlLite)
+router.get('/friends/library/downloads', ctrlLite)
 router.get('/friends/seach', ctrlLite)
 router.get('/friends/settings', ctrlLite)
 
