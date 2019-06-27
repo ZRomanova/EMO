@@ -7,6 +7,9 @@ var ctrlFull = require('../controllers/full');
 /* GET home page. */
 router.get('/', ctrlFull.getHomePage) 
 
+/* Сраница о нас. */
+router.get('/about', ctrlFull.getAbout)
+
 /* Сраницы полной версии. */
 router.get('/full', ctrlFull.getFullVersion)
 
