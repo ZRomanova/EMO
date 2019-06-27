@@ -5,9 +5,7 @@ var ctrlLite = require('../controllers/lite');
 var ctrlFull = require('../controllers/full'); 
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Hello, Zoya!' });
-});
+router.get('/', ctrlFull.getHomePage) 
 
 /* Сраницы полной версии. */
 router.get('/full', ctrlFull.getFullVersion)
