@@ -1,6 +1,6 @@
-/* Полулить страницу друзей. */
+/* Получить страницу друзей. */
 module.exports.getFriends = function(req, res, next) {
-  res.render('index', { title: 'Регистрация!' });
+  res.render('index', { title: 'Ваши друзья!' });
 };
 
 /* Получить страницу библиотек. */
