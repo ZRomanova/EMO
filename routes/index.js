@@ -1,8 +1,8 @@
 var express = require('express');
 var router = express.Router();
 
-var ctrlLite = require('../../controllers/lite');
-var ctrlFull = require('../../controllers/full'); 
+var ctrlLite = require('../controllers/lite');
+var ctrlFull = require('../controllers/full'); 
 
 /* GET home page. */
 router.get('/', ctrlFull.getHomePage) 
