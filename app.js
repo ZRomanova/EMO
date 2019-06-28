@@ -1,6 +1,6 @@
 var  createError = require('./node_modules/http-errors');
 var express = require('./node_modules/express');
-var path = require('./node_modules/path');
+var path = require('./node_modules/path-parse');
 var cookieParser = require('./node_modules/cookie-parser');
 var logger = require('./node_modules/morgan');
 
