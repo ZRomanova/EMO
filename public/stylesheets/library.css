@@ -1,0 +1,101 @@
+body {
+  position:  absolute;
+  width: 100%; 
+  height: 100%; 
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.chat {
+	float: left; 
+	width: 33%; 
+	height: 100%;    
+  display:inline-block;
+  background: #C5FFF1;
+  overflow: auto;
+}
+
+.library {
+	float: left; 
+	width: 67%; 
+	height: 100%;    
+  display:inline-block;
+  background: #FEBDD3;
+  overflow: auto;
+}
+
+.picta {
+  width: 30%; 
+	height: 38%;  
+  margin-left: 12%;
+  margin-top: 5%;
+  border-style: ridge;
+}
+
+.exit { 
+  height: 2cm;
+	width: 2cm;
+	right: 2%;
+	bottom: 2%;
+  position: fixed;    
+}
+
+#header {
+	width: 33%;
+	height: 100px;
+	margin: 0; 
+	position: absolute;
+	top: 0;
+  background: #FEBDD3;
+}
+
+#middle {
+  width: 33%;
+  margin: 0; 
+  position: absolute;
+  bottom: 60px;
+  top: 80px;
+  overflow: auto;
+}
+
+.avatar {
+	width: 96px;
+  height: 96px;
+	position: absolute;
+	top: 2px;
+}
+
+#friend {left: 2px;}
+#me {right: 2px;}
+
+#chat {
+	width: 33%;
+	height: 60px;
+	font-size: 1cm;
+	margin: 0; 
+	position: absolute;
+	bottom: 0;
+  background: #C5FFF1;
+}
+
+.text {
+	width: 75%;
+	height: 53px;
+	font-size: 0.9cm;
+	position: absolute;
+	bottom: 0;
+  resize: none;
+  overflow: auto;
+}
+
+#footer_letter {
+	position: absolute;
+	height: 53px;
+	width: 23%;
+	right: 2px;
+}
+
+img {
+  border-color: grey; 
+}

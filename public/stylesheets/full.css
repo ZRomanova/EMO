@@ -1,0 +1,57 @@
+body {
+  position:  absolute;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #C5FFF1;
+}
+
+#header {
+  height: 100px;
+  width: 8.5cm;
+  position: fixed;
+  background: #FEBDD3;
+}
+
+.settings {
+  height: 80px;
+  width: 80px;
+  margin-top: 10px;
+  margin-left: 10px;  
+}
+
+.friends {
+	float: left; 
+	width: 8cm; 
+  height: 100%;
+  margin-top: 100px;
+  display: inline-block;
+  background: #C5FFF1;
+  overflow: auto;
+  padding: 10px;
+} 
+
+.friendAvatar {
+  height: 2cm;
+  width: 2cm;
+  display: inline-block;
+  position: relative;
+}
+
+.friendName {
+  left: 7px;
+  top: -0.9cm;
+  height: 1cm;
+  width: 5cm;
+  display: inline-block;
+  position: relative;
+}  
+
+.chat {
+  display: inline-block;
+  position:  relative;
+  overflow: auto;
+  padding: 20px;
+}

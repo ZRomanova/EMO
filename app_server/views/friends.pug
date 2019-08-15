@@ -1,0 +1,51 @@
+extends layout
+  
+block content
+  link(rel='stylesheet', href='/stylesheets/friends.css') 
+  .all_friends
+    table.friends(align='left' valign='top')
+      tr
+        td
+          a(href='/library')
+            img.friendAvatar(scr='k.jpg')
+            input.friendName#1(type = 'textarea' value = 'ИМЯ' readonly onload = 'text_color(id, value)')
+        td  
+          a(href='/library')
+            img.friendAvatar(scr='k.jpg')
+            input.friendName(type = 'textarea' value = 'ИМЯ' readonly)
+        td
+          a(href='/library')
+            img.friendAvatar(scr='k.jpg')
+            input.friendName(type = 'textarea' value = 'ИМЯ' readonly)
+      tr
+        td
+          a(href='/library')
+            img.friendAvatar(scr='k.jpg')
+            input.friendName(type = 'textarea' value = 'ИМЯ' readonly)
+        td  
+          a(href='/library')
+            img.friendAvatar(scr='k.jpg')
+            input.friendName(type = 'textarea' value = 'ИМЯ' readonly)
+        td
+          a(href='/library')
+            img.friendAvatar(scr='k.jpg')
+            input.friendName(type = 'textarea' value = 'ИМЯ' readonly)
+      tr
+        td
+          a(href='/library')
+            img.friendAvatar(scr='k.jpg')
+            input.friendName(type = 'textarea' value = 'ИМЯ' readonly)
+        td
+          a(href='/library')
+            img.friendAvatar(scr='k.jpg')
+            input.friendName(type = 'textarea' value = 'ИМЯ' readonly)
+    .menu
+      img.menuIMG(scr='symbols/lupa.png')
+      input.menuName(type = 'textarea' value = 'ИМЯ' readonly)
+      a(href='/seach')
+        img.menuIMG(scr='k.jpg')
+      img.menuIMG(scr='k.jpg')
+      a(href='/settings')
+        img.menuIMG(scr='k.jpg')      
+      a(href='/')
+        input.bottom(type = 'bottom' value= 'ВЫХОД')      

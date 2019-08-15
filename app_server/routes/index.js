@@ -15,12 +15,12 @@ router.get('/full', ctrlFull.getFullVersion)
 
 /* Страницы лайт-версии. */
 router.get('/friends', ctrlLite.getFriends)
-router.get('/friends/library', ctrlLite.getLibrary)
-router.get('/friends/library/questions', ctrlLite.getQuestions)
-router.get('/friends/library/ansers', ctrlLite.getAnsers)
-router.get('/friends/library/stickers', ctrlLite.getStickers)
-router.get('/friends/library/downloads', ctrlLite.getDownloads)
-router.get('/friends/seach', ctrlLite.getSeach)
-router.get('/friends/settings', ctrlLite.getSettings)
+router.get('/library', ctrlLite.getLibrary)
+router.get('/questions', ctrlLite.getQuestions)
+router.get('/answers', ctrlLite.getAnsers)
+router.get('/stickers', ctrlLite.getStickers)
+router.get('/downloads', ctrlLite.getDownloads)
+router.get('/seach', ctrlLite.getSeach)
+router.get('/settings', ctrlLite.getSettings)
 
 module.exports = router;
