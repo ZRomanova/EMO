@@ -2,14 +2,8 @@ extends library
 
 block div
   .library
-    img.picta(scr='k.jpg')
-    img.picta(scr='k.jpg')
-    img.picta(scr='k.jpg')
-    img.picta(scr='k.jpg')
-    img.picta(scr='k.jpg')
-    img.picta(scr='k.jpg')
-    img.picta(scr='k.jpg')
-    img.picta(scr='k.jpg')
+    each pictogramma in pictograms
+      img.picta(scr= pictogramma.img)
   footer
     a(href='/library')  
       img.exit(scr='symbols/cross.png')

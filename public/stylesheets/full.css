@@ -13,24 +13,38 @@ body {
   width: 8.5cm;
   position: fixed;
   background: #FEBDD3;
+  z-index: 1;
 }
 
-.settings {
+.headerBottom{
   height: 80px;
   width: 80px;
-  margin-top: 10px;
-  margin-left: 10px;  
+  top: 10px;
+  position: absolute;
+  z-index: 3;
+} 
+
+#seach {
+    left: 10px;
+    background: url("https://lmar.com.ua/5185-large_default/lupa-75-mm.jpg");
+    z-index: 3;
+} 
+
+#settings {
+    right: 10px; 
+    background: url("https://lmar.com.ua/5185-large_default/lupa-75-mm.jpg");  
 }
 
 .friends {
-	float: left; 
-	width: 8cm; 
+  float: left; 
+  width: 8cm; 
   height: 100%;
   margin-top: 100px;
   display: inline-block;
   background: #C5FFF1;
-  overflow: auto;
+  overflow: scroll;
   padding: 10px;
+  z-index: 1;
 } 
 
 .friendAvatar {
@@ -38,6 +52,7 @@ body {
   width: 2cm;
   display: inline-block;
   position: relative;
+  z-index: 2;
 }
 
 .friendName {
@@ -47,6 +62,7 @@ body {
   width: 5cm;
   display: inline-block;
   position: relative;
+  z-index: 2;
 }  
 
 .chat {
@@ -55,3 +71,43 @@ body {
   overflow: auto;
   padding: 20px;
 }
+
+#footer { 
+    width: 70%;
+    height: 80px;
+    font-size: 1cm;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    display: block;
+}
+
+.footerBottom {
+    position: absolute;
+	height: 73px;
+}
+
+#plus {
+    width: 73px;
+} 
+
+#footer_letter {
+	width: 15%;
+	right: 2px;
+}
+
+.text {
+	left: 80px;
+	width: 75%;
+	height: 73px;
+	font-size: 0.9cm;
+	position: absolute;
+	bottom: 5px;
+    resize: none;
+    overflow: auto;
+}
+
+
+  
+
+ 

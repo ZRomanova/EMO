@@ -12,6 +12,7 @@ router.get('/about', ctrlFull.getAbout)
 
 /* Сраницы полной версии. */
 router.get('/full', ctrlFull.getFullVersion)
+router.get('/full_1', ctrlFull.getFullVersion1)
 
 /* Страницы лайт-версии. */
 router.get('/friends', ctrlLite.getFriends)

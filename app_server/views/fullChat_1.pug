@@ -1,0 +1,9 @@
+extends full
+
+block chat
+  .chat
+    p Пока нет сообщений
+    #footer
+      img.footerBottom#plus(scr='symbols/letter.png')
+      textarea.text(value = "" onсlick = 'text_color(id, value)')
+      img.footerBottom#footer_letter(scr='symbols/letter.png')
