@@ -2,41 +2,11 @@ extends layout
   
 block content
   link(rel='stylesheet', href='/stylesheets/start.css') 
-  table.users(align='left' valign='top')
-    tr
-      td
-        a(href='/friends')
-          img.userAvatar(scr='k.jpg')
-          input.userName(type = 'textarea' value = 'ИМЯ' readonly)
-      td  
-        a(href='/friends')
-          img.userAvatar(scr='k.jpg')
-          input.userName(type = 'textarea' value = 'ИМЯ' readonly)
-      td
-        a(href='/friends')
-          img.userAvatar(scr='k.jpg')
-          input.userName(type = 'textarea' value = 'ИМЯ' readonly)
-      td
-        a(href='/friends')
-          img.userAvatar(scr='k.jpg')
-          input.userName(type = 'textarea' value = 'ИМЯ' readonly)
-      td  
-        a(href='/friends')
-          img.userAvatar(scr='k.jpg')
-          input.userName(type = 'textarea' value = 'ИМЯ' readonly)
-    tr
-      td  
-        a(href='/friends')
-          img.userAvatar(scr='k.jpg')
-          input.userName(type = 'textarea' value = 'ИМЯ' readonly)
-      td
-        a(href='/friends')
-          img.userAvatar(scr='k.jpg')
-          input.userName(type = 'textarea' value = 'ИМЯ' readonly)
   .form        
     form 
-      p.entrance#1 Введите логин:
-      textarea.entrance#2(value = "")
-      p.entrance#1 Введите пароль:
-      textarea.entrance#2(value = "")
-      input.entrance#3(type = 'bottom' value= 'ВХОД' readonly)      
+      p.entrance Введите логин:
+      textarea.entrance#textarea_entrance(value = "")
+      p.entrance Введите пароль:
+      textarea.entrance#textarea_entrance(value = "")
+      a(href='/friends')
+        input.entrance#bottom_entrance(type = 'bottom' value= 'ВХОД' readonly)      

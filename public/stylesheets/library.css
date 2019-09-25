@@ -36,10 +36,10 @@ body {
 
 .exit { 
   height: 2cm;
-	width: 2cm;
-	right: 2%;
-	bottom: 2%;
-  position: fixed;    
+  width: 2cm;
+  right: 2%;
+  bottom: 2%;
+  position: fixed;   
 }
 
 #header {
