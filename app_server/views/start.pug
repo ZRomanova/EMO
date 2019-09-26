@@ -4,9 +4,28 @@ block content
   link(rel='stylesheet', href='/stylesheets/start.css') 
   .form        
     form 
-      p.entrance Введите логин:
-      textarea.entrance#textarea_entrance(value = "")
-      p.entrance Введите пароль:
-      textarea.entrance#textarea_entrance(value = "")
-      a(href='/friends')
-        input.entrance#bottom_entrance(type = 'bottom' value= 'ВХОД' readonly)      
+      p ВХОД:
+        p.entrance Введите логин:
+        textarea.entrance#textarea_entrance(value = "")
+        p.entrance Введите пароль:
+        textarea.entrance#textarea_entrance(value = "")
+        a(href='/friends')
+          input.entrance#bottom_entrance(type = 'bottom' value= 'ВХОД' readonly)      
+  .form        
+    form
+      p РЕГИСТРАЦИЯ: 
+        p.entrance Имя:
+        textarea.entrance#textarea_entrance(value = "")
+        p.entrance Фамилия:
+        textarea.entrance#textarea_entrance(value = "") 
+        p.entrance Учреждение:
+        select.entrance#textarea_entrance(size = 5)
+          option ЦССВ "Вера.Надежда.Любовь"
+        p.entrance Почта:
+        textarea.entrance#textarea_entrance(value = "")        
+        p.entrance Логин:
+        textarea.entrance#textarea_entrance(value = "")
+        p.entrance Пароль:
+        textarea.entrance#textarea_entrance(value = "")
+        a(href='/friends')
+           input.entrance#bottom_entrance(type = 'bottom' value= 'ЗАРЕГИСТРИРОВАТЬСЯ' readonly)      

@@ -5,31 +5,35 @@ body {
 
 .form {
     left: 10%;
-    height: 50%;
     width: 40%;
-    top: 50px;   
-    display: block; 
-    position: absolute;    
+    height: 150%;
+    top: 50px;
+    bottom: 50px;   
+    display: inline-block; 
+    position: relative;    
  }
+
+ p {font-size: 0.8cm;}
  
 .entrance {
 	height: 0.7cm;
 	font-size: 0.6cm; 
     margin-left: 20px;
     resize: none;
-    overflow: hidden
+    overflow: hidden;
     
 }
 
 #bottom_entrance {
     text-align: center;
     margin-top: 25px; 
-    width: 250px;
+    width: 60%;
+    margin-left: 9%;
 }
 
 #textarea_entrance {
     margin-top: -10px; 
-    width: 250px;    
+    width: 70%;    
 }
 img {
     border-color: grey; 
