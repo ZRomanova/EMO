@@ -39,7 +39,8 @@ body {
   width: 2cm;
   right: 2%;
   bottom: 2%;
-  position: fixed;   
+  position: fixed;
+  background: url("https://github.com/ZRomanova/EMO/blob/master/app_server/views/symbols/cross.png?raw=true");  
 }
 
 #header {
@@ -48,7 +49,7 @@ body {
 	margin: 0; 
 	position: absolute;
 	top: 0;
-  background: #FEBDD3;
+    background: #FEBDD3;
 }
 
 #middle {
