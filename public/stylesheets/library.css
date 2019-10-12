@@ -40,7 +40,8 @@ body {
   right: 2%;
   bottom: 2%;
   position: fixed;
-  background: url("https://github.com/ZRomanova/EMO/blob/master/app_server/views/symbols/cross.png?raw=true");  
+  background: url("https://github.com/ZRomanova/EMO/blob/master/app_server/views/symbols/cross.png?raw=true"); 
+  background-size: 100% 100%;
 }
 
 #header {
@@ -96,6 +97,9 @@ body {
 	height: 53px;
 	width: 23%;
 	right: 2px;
+    background: url("https://github.com/ZRomanova/EMO/blob/master/app_server/views/symbols/letter.png?raw=true"); 
+    background-size: 100% 100%;
+    display: inline-block;
 }
 
 img {

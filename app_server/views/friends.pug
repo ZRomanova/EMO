@@ -6,16 +6,16 @@ block content
     each friend in friends
       .box
         a(href= friend.page)
-          img.friendAvatar(scr= friend.avatar)
-          input.friendName#1(type = 'textarea' value = friend.name readonly onload = 'text_color(id, value)')
+          .img.friendAvatar(scr= friend.avatar)
+          input.friendName#1(type = 'textarea' value = friend.name readonly window.onload = 'text_color(id, value)')
 
   .menu
-    img.menuIMG(scr= 'symbols/lupa.png')
+    .img.menuIMG
     input.menuName(type = 'textarea' value = 'ИМЯ' readonly)
     a(href='/seach')
-      img.menuIMG(scr='symbols/lupa.png')
-    img.menuIMG(scr='k.jpg')
+      .img.menuIMG#seach
+    .img.menuIMG
     a(href='/settings')
-      img.menuIMG(scr='k.jpg')      
+      .img.menuIMG      
     a(href='/')
       input.bottom(type = 'bottom' value= 'ВЫХОД')      

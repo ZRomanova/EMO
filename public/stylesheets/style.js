@@ -9,7 +9,7 @@ while count <= my_text {
   if letter = 'А' || 'О' || 'У' || 'Ы' || 'Э' || 'Я' || 'Ё' || 'Ю' || 'И' || 'Е' {
     mas[count] = "<font color = red>" + mas[count] + "</font>";
     count++;
-  }  
+}}  
 document.getElementById(id).innerHTML = mas.join("");
 }
 // запуск onload = 'text_color(id, value)'
