@@ -16,3 +16,31 @@ module.exports.getFullVersion1 = function(req, res, next) {
 module.exports.getAbout = function(req, res, next) {
   res.render('about', { title: 'О нас' });
 };
+
+module.exports.getAdminPage = function(req, res, next) {
+  res.render('admin', 
+  { title: 'Admin' ,
+    users: [{
+    name: 'Иван',
+    surname: 'Иванов',
+    institution: 'ЦССВ',
+    email: 'xxx@email.com',
+    login: 'login',
+    password: '12345'
+  },{
+    name: 'Иван',
+    surname: 'Иванов',
+    institution: 'ЦССВ',
+    email: 'xxx@email.com',
+    login: 'login',
+    password: '12345'
+  },{
+    name: 'Иван',
+    surname: 'Иванов',
+    institution: 'ЦССВ',
+    email: 'xxx@email.com',
+    login: 'login',
+    password: '12345'
+  }]    
+  });
+};

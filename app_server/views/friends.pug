@@ -6,14 +6,14 @@ block content
     each friend in friends
       .box
         a(href= friend.page)
-          .img.friendAvatar(scr= friend.avatar)
+          .img.friendAvatar(src= friend.avatar)
           input.friendName#1(type = 'textarea' value = friend.name readonly window.onload = 'text_color(id, value)')
 
   .menu
     .img.menuIMG
     input.menuName(type = 'textarea' value = 'ИМЯ' readonly)
     a(href='/seach')
-      .img.menuIMG#seach
+      img.menuIMG#seach  
     .img.menuIMG
     a(href='/settings')
       .img.menuIMG      

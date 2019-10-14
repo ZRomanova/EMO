@@ -1,0 +1,28 @@
+extends layout
+ 
+block content
+  link(rel='stylesheet', href='/stylesheets/admin.css')
+  h3 Пользовалели:
+  table(cols = "6", border = "2" )
+    tr
+      td Фамилия
+      td Имя
+      td Учреждение
+      td Почта
+      td Логин
+      td Пароль
+  table(cols = "6", border = "2" )
+    each user in users
+      tr
+        td 
+          input.user(type = 'textarea' value = user.name)
+        td 
+          input.user(type = 'textarea' value = user.surname)
+        td 
+          input.user(type = 'textarea' value = user.institution)
+        td 
+          input.user(type = 'textarea' value = user.email)
+        td 
+          input.user(type = 'textarea' value = user.login)
+        td 
+          input.user(type = 'textarea' value = user.password)
