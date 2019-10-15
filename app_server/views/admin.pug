@@ -13,22 +13,23 @@ block content
       td Пароль
       td.delete Удалить
   table(cols = "7", border = "2" )
-    each user in users
-      tr
-        td 
-          input.user(type = 'textarea' value = user.name)
-        td 
-          input.user(type = 'textarea' value = user.surname)
-        td 
-          input.user(type = 'textarea' value = user.institution)
-        td 
-          input.user(type = 'textarea' value = user.email)
-        td 
-          input.user(type = 'textarea' value = user.login)
-        td 
-          input.user(type = 'textarea' value = user.password)
-        td.delete 
-          button.delete Удалить
+    form
+      each user in users
+        tr
+          td 
+            input.user(type = 'text' value = user.name)
+          td 
+            input.user(type = 'text' value = user.surname)
+          td 
+            input.user(type = 'text' value = user.institution)
+          td 
+            input.user(type = 'text' value = user.email)
+          td 
+            input.user(type = 'text' value = user.login)
+          td 
+            input.user(type = 'text' value = user.password)
+          td.delete 
+            button.delete Удалить
   button.finish Сбросить изменения
   button.finish Сохранить изменения
   button.finish Добавить пользователя

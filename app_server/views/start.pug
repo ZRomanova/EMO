@@ -15,17 +15,16 @@ block content
     form
       p РЕГИСТРАЦИЯ: 
         p.entrance Имя:
-        textarea.entrance#textarea_entrance(value = "")
+        input.entrance#textarea_entrance(type='text', name='firstName', value = "", required)
         p.entrance Фамилия:
-        textarea.entrance#textarea_entrance(value = "") 
+        input.entrance#textarea_entrance(type='text', name='lastName', value = "", required) 
         p.entrance Учреждение:
-        select.entrance#textarea_entrance(size = 5)
+        select.entrance#textarea_entrance(size = 5, name='institution', required)
           option ЦССВ "Вера.Надежда.Любовь"
         p.entrance Почта:
-        textarea.entrance#textarea_entrance(value = "")        
+        input.entrance#textarea_entrance(type='email', name='email', value = "", required)        
         p.entrance Логин:
-        textarea.entrance#textarea_entrance(value = "")
+        input.entrance#textarea_entrance(type='text', name='username', value = "", required)
         p.entrance Пароль:
-        textarea.entrance#textarea_entrance(value = "")
-        a(href='/friends')
-           input.entrance#bottom_entrance(type = 'bottom' value= 'ЗАРЕГИСТРИРОВАТЬСЯ' readonly)      
+        input.entrance#textarea_entrance(type='password', name='password', value = "", required)
+        button.entrance#bottom_entrance(type = 'submit') ЗАРЕГИСТРИРОВАТЬСЯ     
