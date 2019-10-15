@@ -2,8 +2,8 @@ extends layout
  
 block content
   link(rel='stylesheet', href='/stylesheets/admin.css')
-  h3 Пользовалели:
-  table(cols = "6", border = "2" )
+  h3 Пользователи:
+  table(cols = "7", border = "2" )
     tr
       td Фамилия
       td Имя
@@ -11,7 +11,8 @@ block content
       td Почта
       td Логин
       td Пароль
-  table(cols = "6", border = "2" )
+      td.delete Удалить
+  table(cols = "7", border = "2" )
     each user in users
       tr
         td 
@@ -26,3 +27,8 @@ block content
           input.user(type = 'textarea' value = user.login)
         td 
           input.user(type = 'textarea' value = user.password)
+        td.delete 
+          button.delete Удалить
+  button.finish Сбросить изменения
+  button.finish Сохранить изменения
+  button.finish Добавить пользователя

@@ -3,6 +3,21 @@ td {
     width: 200px;
 }
 
+body {
+    padding: 10px;
+} 
+
 .user {
     width: 100%;
+}
+
+button.finish {
+    margin: 20px;
+    height: 45px;
+    float: right;
+}
+
+.delete {
+    margin: 0;
+    width: 100px;
 }
