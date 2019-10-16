@@ -94,6 +94,6 @@ a {
 }  
 
 #seach {
-    background: url('https://github.com/ZRomanova/EMO/blob/master/app_server/views/symbols/lupa.png?raw=true'); 
+    background: url('/stylesheets/symbols/lupa.png'); 
     background-size: 100% 100%;
 }    
