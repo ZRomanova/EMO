@@ -6,9 +6,8 @@ block content
     each friend in friends
       .box
         a(href= friend.page)
-          .img.friendAvatar(src= friend.avatar)
+          img.friendAvatar(src= friend.avatar)
           input.friendName#1(type = 'textarea' value = friend.name readonly window.onload = 'text_color(id, value)')
-
   .menu
     .img.menuIMG
     input.menuName(type = 'textarea' value = 'ИМЯ' readonly)
@@ -18,4 +17,4 @@ block content
     a(href='/settings')
       .img.menuIMG      
     a(href='/')
-      input.bottom(type = 'bottom' value= 'ВЫХОД')      
+      input.bottom(type = 'button' value= 'ВЫХОД')      

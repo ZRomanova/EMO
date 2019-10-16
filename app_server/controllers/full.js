@@ -41,6 +41,28 @@ module.exports.getAdminPage = function(req, res, next) {
     email: 'xxx@email.com',
     login: 'login',
     password: '12345'
-  }]    
+  }],
+    pictograms: [{
+    librery: 'questions',
+    link: '01'
+    },{  
+    librery: 'questions',
+    link: '02'
+    },{    
+    librery: 'questions',
+    link: '03'
+    },{    
+    librery: 'questions',
+    link: '04'
+    },{    
+    librery: 'answers',
+    link: '010'
+    },{    
+    librery: 'answers',
+    link: '09'
+    },{    
+    librery: 'answers',
+    link: '08'
+  }]        
   });
 };

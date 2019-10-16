@@ -11,13 +11,56 @@ body {
     width: 100%;
 }
 
-button.finish {
+.finish {
     margin: 20px;
     height: 45px;
     float: right;
 }
 
+.footer {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 4;
+    background: #C5FFF1;
+}
+
 .delete {
     margin: 0;
     width: 100px;
+}
+
+.librery {
+    margin-top: 100px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.box {
+    display: inline-block;
+    width: 20%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    z-index: 2;
+}
+
+.dpict {
+    display: block;
+    z-index: 3;
+}
+
+.pict {
+    height: 200px;
+    width: 200px;
+    z-index: 3;
+}
+
+.pictograms {
+    display: block;
+    width: 100%;
+    margin-bottom: 120px;
+    z-index: 1;
+    margin-top: 100px;
+    
 }

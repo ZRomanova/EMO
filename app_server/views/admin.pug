@@ -30,6 +30,16 @@ block content
             input.user(type = 'text' value = user.password)
           td.delete 
             button.delete Удалить
-  button.finish Сбросить изменения
-  button.finish Сохранить изменения
   button.finish Добавить пользователя
+  
+  .pictograms
+    each pictogram in pictograms 
+      .box
+        img.pict(src= '/stylesheets/pictograms/' + pictogram.librery + '/' + pictogram.link + '.png')
+        button.dpict Удалить        
+    .box
+      button.dpict Добавить
+
+  .footer
+    button.finish Сбросить изменения
+    button.finish Сохранить изменения
