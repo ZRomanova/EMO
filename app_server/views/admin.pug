@@ -33,13 +33,45 @@ block content
   button.finish Добавить пользователя
   
   .pictograms
-    each pictogram in pictograms 
+    h3 Вопросы:
+      br
+      each pictogram in questions
+        .box
+          img.pict(src= '/stylesheets/pictograms/questions/' + pictogram.link + '.png')
+          button.dpict Удалить        
       .box
-        img.pict(src= '/stylesheets/pictograms/' + pictogram.librery + '/' + pictogram.link + '.png')
-        button.dpict Удалить        
-    .box
-      button.dpict Добавить
-
+        button.dpict Добавить
+      
+  .pictograms
+    h3 Ответы: 
+      br
+      each pictogram in answers
+        .box
+          img.pict(src= '/stylesheets/pictograms/answers/' + pictogram.link + '.png')
+          button.dpict Удалить        
+      .box
+        button.dpict Добавить
+      
+  .pictograms
+    h3 Стикеры:
+      br
+      each pictogram in stickers
+        .box
+          img.pict(src= '/stylesheets/pictograms/stickers/' + pictogram.link + '.png')
+          button.dpict Удалить        
+      .box
+        button.dpict Добавить
+      
+  .pictograms
+    h3 Загруженное:
+      br
+      each pictogram in downloads
+        .box
+          img.pict(src= '/stylesheets/pictograms/downloads/' + pictogram.link + '.png')
+          button.dpict Удалить        
+      .box
+        button.dpict Добавить
+      
   .footer
     button.finish Сбросить изменения
     button.finish Сохранить изменения

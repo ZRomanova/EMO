@@ -42,27 +42,32 @@ module.exports.getAdminPage = function(req, res, next) {
     login: 'login',
     password: '12345'
   }],
-    pictograms: [{
-    librery: 'questions',
+    questions: [{
     link: '01'
     },{  
-    librery: 'questions',
     link: '02'
     },{    
-    librery: 'questions',
     link: '03'
     },{    
-    librery: 'questions',
     link: '04'
-    },{    
-    librery: 'answers',
-    link: '010'
-    },{    
-    librery: 'answers',
+  }],
+    answers: [{
+    link: '08'
+    },{  
     link: '09'
     },{    
-    librery: 'answers',
-    link: '08'
-  }]        
+    link: '010'
+    },{    
+    link: '011'
+  }],
+    stickers: [{
+    link: '001'
+    },{  
+    link: '004'
+    },{    
+    link: '007'
+  }],
+    downloads: [
+  ]          
   });
 };
