@@ -2,6 +2,16 @@ extends layout
 
 block content
   link(rel='stylesheet', href='/stylesheets/seach.css')
+  form
+    p ПОИСК: 
+      p.entrance Имя:
+      input.entrance#textarea(type='text', name='firstName', value = "")
+      p.entrance Фамилия:
+      input.entrance#textarea(type='text', name='lastName', value = "") 
+      p.entrance Учреждение:
+      select.entrance#textarea(size = 5, name='institution')
+        option ЦССВ "Вера.Надежда.Любовь"     
+      button.entrance#bottom(type = 'submit') ИСКАТЬ
   footer
     a(href='/friends')  
-      img.exit(scr='symbols/cross.png')
+      .exit

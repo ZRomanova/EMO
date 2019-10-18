@@ -7,14 +7,14 @@ block content
       .box
         a(href= friend.page)
           img.friendAvatar(src= friend.avatar)
-          input.friendName#1(type = 'textarea' value = friend.name readonly window.onload = 'text_color(id, value)')
+          input.friendName.TC(type = 'textarea' value = friend.name readonly)
   .menu
     .img.menuIMG
-    input.menuName(type = 'textarea' value = 'ИМЯ' readonly)
+    input.menuName.TC(type = 'textarea' value = 'ИМЯ' readonly)
     a(href='/seach')
       img.menuIMG#seach  
     .img.menuIMG
     a(href='/settings')
-      .img.menuIMG      
+      .img.menuIMG(hidden="true")      
     a(href='/')
       input.bottom(type = 'button' value= 'ВЫХОД')      

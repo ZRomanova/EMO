@@ -19,4 +19,27 @@ footer {
 	right: 2%;
 	bottom: 2%;
     position: fixed;
+    background: url('/stylesheets/symbols/cross.png');
+    background-size: 100% 100%;
 }    
+
+.entrance {
+	height: 0.7cm;
+	font-size: 0.6cm; 
+    margin-left: 20px;
+    resize: none;
+    overflow: hidden;
+    
+}
+
+#bottom {
+    text-align: center;
+    margin-top: 25px; 
+    width: 60%;
+    margin-left: 9%;
+}
+
+#textarea {
+    margin-top: -10px; 
+    width: 70%;    
+}
