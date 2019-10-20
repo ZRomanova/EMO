@@ -4,6 +4,19 @@ var dbURI = 'mongodb://localhost/EMO';
 
 mongoose.connect(dbURI);
 
+
+var readLine = require ("readline");
+if (process.platform === "win32"){
+ var rl = readLine.createInterface ({
+ input: process.stdin,
+ output: process.stdout
+ });
+ rl.on ("SIGINT", function (){
+ process.emit ("SIGINT");
+ });
+}
+
+
 // CONNECTION EVENTS
 mongoose.connection.on('connected', function() {
     console.log('Mongoose connected to ' + dbURI);
@@ -42,4 +55,4 @@ process.on('SIGTERM', function() {
     });
 });
 
-require('./answers');
+require('./libraries');
