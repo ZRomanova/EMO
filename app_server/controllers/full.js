@@ -21,6 +21,7 @@ module.exports.getAdminPage = function(req, res, next) {
   res.render('admin', 
   { title: 'Admin' ,
     users: [{
+    avatar: 'a.png',
     name: 'Иван',
     surname: 'Иванов',
     institution: 'ЦССВ',
@@ -28,6 +29,7 @@ module.exports.getAdminPage = function(req, res, next) {
     login: 'login',
     password: '12345'
   },{
+    avatar: 'a.png',
     name: 'Иван',
     surname: 'Иванов',
     institution: 'ЦССВ',
@@ -35,6 +37,7 @@ module.exports.getAdminPage = function(req, res, next) {
     login: 'login',
     password: '12345'
   },{
+    avatar: 'a.png',
     name: 'Иван',
     surname: 'Иванов',
     institution: 'ЦССВ',
