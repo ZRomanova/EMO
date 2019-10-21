@@ -21,3 +21,12 @@ for (let i = 0; ;i++) {
 };
 };
 
+function text_color(id) {
+    var t = document.getElementsById(id).innerHTML;
+    var my_text = t.length-1;
+    letter = t[my_text].toUpperCase();
+    if (letter == 'А' || letter ==  'О' || letter == 'У' || letter == 'Ы' || letter == 'Э' || letter == 'Я' || letter == 'Ё' || letter == 'Ю' || letter == 'И' || letter == 'Е') {
+        letter = "<span class = red>" + letter + "</span>";
+        };
+    document.getElementsById(id).innerHTML = str.slice(0 , my_text - 1) + letter;
+};

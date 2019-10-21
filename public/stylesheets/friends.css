@@ -45,7 +45,6 @@ body {
     display: block;
     margin-top: 5%;
     margin-left: 10%;
-    background: #C5FFF1;
     border-style: ridge;
     width: 250px;
 	height: 1cm;
@@ -66,7 +65,6 @@ body {
     margin-top: 5%;
     margin-left: 5%;
     width: 80%;
-    background: #FEBDD3;
     height: 1cm;
 	font-size: 0.85cm;
 	text-align: center;
@@ -78,7 +76,6 @@ body {
     margin-left: 5%;
     margin-bottom: 5%;
     width: 80%;
-    background: #C5FFF1;
     height: 1cm;
 	font-size: 0.85cm;
 	text-align: center;
@@ -98,6 +95,3 @@ a {
     background-size: 100% 100%;
 }  
 
-.red {color: red;} 
-
-.tc {background: white; color: black;}
