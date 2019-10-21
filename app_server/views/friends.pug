@@ -7,10 +7,10 @@ block content
       .box
         a(href= friend.page)
           img.friendAvatar(src= friend.avatar)
-          input.friendName.TC(type = 'textarea' value = friend.name readonly)
+          p.friendName.tc= friend.name 
   .menu
     .img.menuIMG
-    input.menuName.TC(type = 'textarea' value = 'ИМЯ' readonly)
+    p.menuName.tc= 'ИМЯ'
     a(href='/seach')
       img.menuIMG#seach  
     .img.menuIMG
