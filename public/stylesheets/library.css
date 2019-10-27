@@ -17,20 +17,17 @@ body {
 }
 
 .library {
-	float: left; 
-	width: 67%; 
-	height: 100%;    
+  float: left; 
+  width: 67%; 
+  height: 100%;    
   display:inline-block;
   background: #FEBDD3;
   overflow: auto;
 }
 
 .picta {
-  width: 30%; 
-  height: 38%;  
+  width: 70%; 
   margin-left: 12%;
-  margin-top: 2.5%;
-  margin-bottom: 2.5%;
   border-style: ridge;
 }
 
@@ -104,4 +101,28 @@ body {
 
 img {
   border-color: grey; 
+}
+
+.folder { 
+  background: url('/stylesheets/symbols/folder.png');
+  background-size: 100% 100%; 
+  border: 0;  
+}
+
+.libraryName {
+    display: block;
+    margin-left: 10%;
+    border-style: ridge;
+    width: 70%;
+	height: 1cm;
+	font-size: 0.85cm;
+	text-align: center;
+    position: relative;
+}
+
+.box {
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }

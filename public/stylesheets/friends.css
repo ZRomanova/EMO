@@ -81,11 +81,6 @@ body {
 	text-align: center;
 }
 
-a {
-    text-decoration: none;
-    border-width: 0;
-} 
-
 .img {
     border-color: grey; 
 }  

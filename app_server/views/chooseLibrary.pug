@@ -2,14 +2,11 @@ extends library
 
 block div
   .library
-    a(href='/questions')
-      img.picta(src='/stylesheets/symbols/question.png')
-    a(href='/answers')
-      img.picta(src='/stylesheets/symbols/answer.png')
-    a(href='/stickers')  
-      img.picta(src='/stylesheets/symbols/sticker.png')
-    a(href='/downloads')  
-      img.picta(src='/stylesheets/symbols/downloads.png')
+     each library in libraries
+      .box
+        a(href= library.href)
+          img.picta.folder(src= library.img)
+          p.libraryName.tc= library.name
   footer
     a(href='/friends')  
       .exit

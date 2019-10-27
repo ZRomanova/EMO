@@ -30,7 +30,24 @@ module.exports.getFriends = function(req, res, next) {
 module.exports.getLibrary = function(req, res, next) {
   res.render('chooseLibrary', { title: 'Библиотеки', 
   user_avatar: 'k.jpg',
-  friend_avatar: 'k.jpg'
+  friend_avatar: 'k.jpg',
+  libraries: [{
+      href: '/questions',
+      img: '/stylesheets/symbols/question.png',
+      name: 'вопросы'
+  },{
+      href: '/answers',
+      img: '/stylesheets/symbols/answer.png',
+      name: 'ответы'
+  },{
+      href: '/stickers',
+      img: '/stylesheets/symbols/sticker.png',
+      name: 'стикеры'
+  },{
+      href: '/downloads',
+      img: '/stylesheets/symbols/downloads.png',
+      name: 'фотографии'
+  }]
   });
 };
 
