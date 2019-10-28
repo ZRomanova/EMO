@@ -131,15 +131,25 @@ module.exports.getLocations = function(req, res, next) {
   user_avatar: 'k.jpg',
   friend_avatar: 'k.jpg',
   pictograms: [{
-    img: 'k.jpg'
+    img: '/stylesheets/pictograms/answers/locations/1.png'
   },{
-    img: 'k.jpg'  
+    img: '/stylesheets/pictograms/answers/locations/2.png'  
   },{
-    img: 'k.jpg' 
+    img: '/stylesheets/pictograms/answers/locations/3.png' 
   },{
-    img: 'k.jpg' 
+    img: '/stylesheets/pictograms/answers/locations/4.png' 
   },{
-    img: 'k.jpg'
+    img: '/stylesheets/pictograms/answers/locations/5.png'  
+  },{
+    img: '/stylesheets/pictograms/answers/locations/6.png' 
+  },{
+    img: '/stylesheets/pictograms/answers/locations/7.png' 
+  },{
+    img: '/stylesheets/pictograms/answers/locations/8.png'  
+  },{
+    img: '/stylesheets/pictograms/answers/locations/9.png' 
+  },{
+    img: '/stylesheets/pictograms/answers/locations/10.png' 
   }]    
   });
 };
@@ -169,15 +179,25 @@ module.exports.getDoing = function(req, res, next) {
   user_avatar: 'k.jpg',
   friend_avatar: 'k.jpg',
   pictograms: [{
-    img: 'k.jpg'
+    img: '/stylesheets/pictograms/answers/doing/1.png'
   },{
-    img: 'k.jpg'  
+    img: '/stylesheets/pictograms/answers/doing/2.png'  
   },{
-    img: 'k.jpg' 
+    img: '/stylesheets/pictograms/answers/doing/3.png' 
   },{
-    img: 'k.jpg' 
+    img: '/stylesheets/pictograms/answers/doing/4.png' 
   },{
-    img: 'k.jpg'
+    img: '/stylesheets/pictograms/answers/doing/5.png'  
+  },{
+    img: '/stylesheets/pictograms/answers/doing/6.png' 
+  },{
+    img: '/stylesheets/pictograms/answers/doing/7.png' 
+  },{
+    img: '/stylesheets/pictograms/answers/doing/8.png'  
+  },{
+    img: '/stylesheets/pictograms/answers/doing/9.png' 
+  },{
+    img: '/stylesheets/pictograms/answers/doing/10.png' 
   }]    
   });
 };
