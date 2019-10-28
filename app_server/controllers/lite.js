@@ -103,23 +103,23 @@ module.exports.getAnswers = function(req, res, next) {
   }],
   libraries: [{
       href: '/locations',
-      img: '/stylesheets/symbols/answer.png',
+      img: '/stylesheets/symbols/locations.png',
       name: 'места'
   },{
       href: '/mood',
-      img: '/stylesheets/symbols/answer.png',
+      img: '/stylesheets/symbols/mood.png',
       name: 'настроение'
   },{
       href: '/doing',
-      img: '/stylesheets/symbols/answer.png',
+      img: '/stylesheets/symbols/doing.png',
       name: 'дела'
   },{
       href: '/lessons',
-      img: '/stylesheets/symbols/answer.png',
+      img: '/stylesheets/symbols/lessons.png',
       name: 'занятия'
   },{
       href: '/weather',
-      img: '/stylesheets/symbols/answer.png',
+      img: '/stylesheets/symbols/weather.png',
       name: 'погода'
   }]  
   });
@@ -160,15 +160,17 @@ module.exports.getMood = function(req, res, next) {
   user_avatar: 'k.jpg',
   friend_avatar: 'k.jpg',
   pictograms: [{
-    img: 'k.jpg'
+    img: '/stylesheets/pictograms/answers/mood/1.png'
   },{
-    img: 'k.jpg'  
+    img: '/stylesheets/pictograms/answers/mood/2.png'  
   },{
-    img: 'k.jpg' 
+    img: '/stylesheets/pictograms/answers/mood/3.png' 
   },{
-    img: 'k.jpg' 
+    img: '/stylesheets/pictograms/answers/mood/4.png' 
   },{
-    img: 'k.jpg'
+    img: '/stylesheets/pictograms/answers/mood/5.png'  
+  },{
+    img: '/stylesheets/pictograms/answers/mood/6.png' 
   }]    
   });
 };
@@ -208,15 +210,74 @@ module.exports.getLessons = function(req, res, next) {
   user_avatar: 'k.jpg',
   friend_avatar: 'k.jpg',
   pictograms: [{
-    img: 'k.jpg'
+    img: '/stylesheets/pictograms/answers/lessons/d1.png',
+    hid: 'false'
   },{
-    img: 'k.jpg'  
+    img: '/stylesheets/pictograms/answers/lessons/d2.png',
+    hid: 'false'
   },{
-    img: 'k.jpg' 
+    img: '/stylesheets/pictograms/answers/lessons/d3.png',
+    hid: 'false'
   },{
-    img: 'k.jpg' 
+    img: '/stylesheets/pictograms/answers/lessons/d4.png',
+    hid: 'false'
   },{
-    img: 'k.jpg'
+    img: '/stylesheets/pictograms/answers/lessons/d5.png',
+    hid: 'false'
+  },{
+    img: '/stylesheets/pictograms/answers/lessons/d6.png',
+    hid: 'false'
+  },{
+    img: '/stylesheets/pictograms/answers/lessons/d7.png',
+    hid: 'false'
+  },{
+    img: '/stylesheets/pictograms/answers/lessons/d8.png',
+    hid: 'false'
+  },{
+    img: '/stylesheets/pictograms/answers/lessons/d9.png',
+    hid: 'false'
+  },{
+    img: '/stylesheets/pictograms/answers/lessons/m1.png',
+    hid: 'false'
+  },{
+    img: '/stylesheets/pictograms/answers/lessons/m2.png',
+    hid: 'false'
+  },{
+    img: '/stylesheets/pictograms/answers/lessons/m3.png',
+    hid: 'false'
+  },{
+    img: '/stylesheets/pictograms/answers/lessons/m4.png',
+    hid: 'false'
+  },{
+    img: '/stylesheets/pictograms/answers/lessons/m5.png',
+    hid: 'false'
+  },{
+    img: '/stylesheets/pictograms/answers/lessons/m6.png',
+    hid: 'false'
+  },{
+    img: '/stylesheets/pictograms/answers/lessons/m7.png',
+    hid: 'false'
+  },{
+    img: '/stylesheets/pictograms/answers/lessons/m8.png',
+    hid: 'false'
+  },{
+    img: '/stylesheets/pictograms/answers/lessons/m9.png',
+    hid: 'false'
+  },{
+    img: '/stylesheets/pictograms/answers/lessons/a1.png',
+    hid: 'false'
+  },{
+    img: '/stylesheets/pictograms/answers/lessons/a2.png',
+    hid: 'false'
+  },{
+    img: '/stylesheets/pictograms/answers/lessons/a3.png',
+    hid: 'false'
+  },{
+    img: '/stylesheets/pictograms/answers/lessons/a4.png',
+    hid: 'false'
+  },{
+    img: '/stylesheets/pictograms/answers/lessons/a5.png',
+    hid: 'false'
   }]    
   });
 };
@@ -227,15 +288,19 @@ module.exports.getWeather = function(req, res, next) {
   user_avatar: 'k.jpg',
   friend_avatar: 'k.jpg',
   pictograms: [{
-    img: 'k.jpg'
+    img: '/stylesheets/pictograms/answers/weather/1.png'
   },{
-    img: 'k.jpg'  
+    img: '/stylesheets/pictograms/answers/weather/2.png'  
   },{
-    img: 'k.jpg' 
+    img: '/stylesheets/pictograms/answers/weather/3.png' 
   },{
-    img: 'k.jpg' 
+    img: '/stylesheets/pictograms/answers/weather/4.png' 
   },{
-    img: 'k.jpg'
+    img: '/stylesheets/pictograms/answers/weather/5.png'  
+  },{
+    img: '/stylesheets/pictograms/answers/weather/6.png' 
+  },{
+    img: '/stylesheets/pictograms/answers/weather/7.png' 
   }]    
   });
 };
@@ -266,15 +331,7 @@ module.exports.getDownloads = function(req, res, next) {
   title: 'Загруженное!',
   user_avatar: 'k.jpg',
   friend_avatar: 'k.jpg',
-  pictograms: [{
-    img: 'k.jpg'
-  },{
-    img: 'k.jpg'  
-  },{
-    img: 'k.jpg' 
-  },{
-    img: 'k.jpg'
-  }]    
+  pictograms: []    
   });
 };
 
