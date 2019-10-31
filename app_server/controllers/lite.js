@@ -97,7 +97,8 @@ module.exports.getAnswers = function(req, res, next) {
   user_avatar: 'k.jpg',
   friend_avatar: 'k.jpg',
   pictograms: [{
-    img: '/stylesheets/pictograms/answers/1.png'
+    img: '/stylesheets/pictograms/answers/1.png',
+    id: 'a'
   },{
     img: '/stylesheets/pictograms/answers/2.png'  
   }],

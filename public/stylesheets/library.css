@@ -54,7 +54,7 @@ img.pict {
   right: 2%;
   bottom: 2%;
   position: fixed;
-  background: url('/stylesheets/symbols/cross.png'); 
+  background: url('/images/cross.png'); 
   background-size: 100% 100%;
 }
 
@@ -68,19 +68,23 @@ img.pict {
 }
 
 #middle {
-  width: 33%;
-  margin: 0; 
-  position: absolute;
-  bottom: 60px;
-  top: 80px;
-  overflow: auto;
+   width: 33%;
+   margin: 0; 
+   position: absolute;
+   bottom: 60px;
+   top: 100px;
+   overflow: auto;
 }
 
 .avatar {
 	width: 96px;
-  height: 96px;
+    height: 96px;
 	position: absolute;
 	top: 2px;
+}
+
+.abonentID {
+     display: none;
 }
 
 #friend {left: 2px;}
@@ -141,4 +145,58 @@ img.pict {
     margin-top: 15px;
 }
 
-.white {background: white;}
+.out{
+  display: flex;
+  justify-content: flex-end;
+  background: #19c6ff;
+  margin: 10px;
+  margin-top: 12px;
+  position: relative;
+  height: auto;
+}
+
+.in {
+  display: flex;
+  justify-content: flex-start;
+  background: white;
+  margin: 10px;
+  position: relative;
+  height: auto;
+  border: 3px solid #19c6ff;
+}
+
+.textm {
+  padding: 10px;
+  vertical-align: baseline;
+  border-radius: 7.5px;
+  max-width: 75%;
+  font-size: 0.6cm;
+}
+
+.image {
+  padding: 12px;
+  border-radius: 7.5px;
+}
+
+img.picture {
+    width: 200px;
+    height: auto;
+}
+
+.message_in {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: flex-start;
+}
+
+.message_out {
+  display: flex;
+  width: 100%;
+  height: auto;
+ justify-content: flex-end;
+}
+
+.inmessage {
+    display: block;
+}

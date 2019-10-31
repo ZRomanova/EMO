@@ -7,6 +7,22 @@ block content
       img.avatar#friend(src= friend_avatar)
       img.avatar#me(src= user_avatar)
     #middle
+      .message_out
+        .inmessage
+          .textm.out.tc
+            span Тут текст.
+      .message_in
+        .inmessage
+          .textm.in.tc
+            span А тут много много много много много много много много много много много много текста.
+      .message_out
+        .inmessage
+          .image.out
+            img.picture(src= '/stylesheets/pictograms/1.png')
+      .message_in
+        .inmessage
+          .image.in
+            img.picture(src= '/stylesheets/pictograms/1.png')
     #chat
       img#plus
       textarea.text.tc#tc(keydown= 'text_color(id)')
