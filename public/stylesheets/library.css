@@ -54,7 +54,7 @@ img.pict {
   right: 2%;
   bottom: 2%;
   position: fixed;
-  background: url('/images/cross.png'); 
+  background: url('/stylesheets/symbols/cross.png'); 
   background-size: 100% 100%;
 }
 
